@@ -3,11 +3,10 @@ public class Main {
     public static void main(String[] args) {
 
         String[][] array = {
-                {"NaN", "20", "30", "40"},
+                {"10", "20", "30", "40"},
                 {"50", "60", "70", "80"},
                 {"90", "100", "110", "120"},
-                {"130", "140", "150", "NaN"},
-
+                {"130", "140", "150", "160"},
         };
 
 
@@ -25,7 +24,7 @@ public class Main {
      * @param allowed array allowed size
      * @return integer
      */
-    public static int accepted(String[][] array, int allowed) {
+    public static int getTotal(String[][] array, int allowed) throws MyArrayDataException, MyArraySizeException {
         int result = 0;
 
         if (array.length != allowed)
@@ -44,7 +43,7 @@ public class Main {
                 }
             }
         }
-        
+
 
         return result;
     }
