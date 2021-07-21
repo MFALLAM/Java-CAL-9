@@ -11,7 +11,7 @@ public class Main {
 
 
         try {
-            int result = accepted(array, 4);
+            int result = getTotal(array, 4);
             System.out.println("Сумма " + result);
         } catch (MyArraySizeException error) {
             System.out.println(error);
