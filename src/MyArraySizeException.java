@@ -1,4 +1,5 @@
-public class MyArraySizeException extends ArrayStoreException  {
+public class MyArraySizeException extends ArrayStoreException {
+
 
     private int sizeAllowed;
 

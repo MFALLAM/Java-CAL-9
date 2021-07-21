@@ -10,6 +10,7 @@ public class Main {
 
         };
 
+
         try {
             int result = accepted(array, 4);
             System.out.println("Сумма " + result);
@@ -20,7 +21,6 @@ public class Main {
     }
 
     /**
-     *
      * @param array
      * @param allowed array allowed size
      * @return integer
@@ -44,6 +44,7 @@ public class Main {
                 }
             }
         }
+        
 
         return result;
     }

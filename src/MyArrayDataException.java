@@ -1,4 +1,5 @@
 public class MyArrayDataException extends NumberFormatException {
+
     private int sizeOne;
     private int sizeTwo;
 
